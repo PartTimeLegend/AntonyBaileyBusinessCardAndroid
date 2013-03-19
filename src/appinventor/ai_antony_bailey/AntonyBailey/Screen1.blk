@@ -1,0 +1,160 @@
+<!DOCTYPE YACodeBlocks SYSTEM "support/save_format.dtd">
+<YACodeBlocks ya-version="62" lang-version="17">
+<Pages><Page page-name=" " page-color="237 245 211" page-width="1280" page-height="1600" page-drawer="My Definitions" >
+<PageBlocks>
+<Block id="2288" genus-name="text" >
+<Location><X>261</X><Y>355</Y></Location>
+<Label>https:\/\/www.facebook.com\/pages\/Antony-Bailey\/31294288853</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2278" ></BlockConnector></Plug>
+</Block>
+<Block id="2286" genus-name="text" has-focus="yes" >
+<Location><X>265</X><Y>487</Y></Location>
+<Label>http:\/\/www.linkedin.com\/in\/antonybailey</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2280" ></BlockConnector></Plug>
+</Block>
+<Block id="2274" genus-name="Button-Click" >
+<Location><X>63</X><Y>451</Y></Location>
+<Label>btnLinkedIn.Click</Label>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="2280" ></BlockConnector>
+</Sockets>
+</Block>
+<BlockStub><StubParentName>LaunchWeb.DataUri</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="2280" genus-name="componentSetter" >
+<Location><X>91</X><Y>484</Y></Location>
+<Label>LaunchWeb.DataUri</Label>
+<BeforeBlockId>2274</BeforeBlockId>
+<AfterBlockId>2284</AfterBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="2286" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<Block id="2284" genus-name="ActivityStarter-StartActivity" >
+<Location><X>91</X><Y>522</Y></Location>
+<Label>LaunchWeb.StartActivity</Label>
+<BeforeBlockId>2280</BeforeBlockId>
+</Block>
+<Block id="2282" genus-name="ActivityStarter-StartActivity" >
+<Location><X>87</X><Y>390</Y></Location>
+<Label>LaunchWeb.StartActivity</Label>
+<BeforeBlockId>2278</BeforeBlockId>
+</Block>
+<BlockStub><StubParentName>LaunchWeb.DataUri</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="2278" genus-name="componentSetter" >
+<Location><X>87</X><Y>352</Y></Location>
+<Label>LaunchWeb.DataUri</Label>
+<BeforeBlockId>2270</BeforeBlockId>
+<AfterBlockId>2282</AfterBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="2288" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<Block id="2270" genus-name="Button-Click" >
+<Location><X>59</X><Y>319</Y></Location>
+<Label>btnFacebook.Click</Label>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="2278" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="938" genus-name="Button-Click" >
+<Location><X>48</X><Y>151</Y></Location>
+<Label>btnEmail.Click</Label>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="2117" ></BlockConnector>
+</Sockets>
+</Block>
+<BlockStub><StubParentName>LaunchWeb.DataUri</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="2117" genus-name="componentSetter" >
+<Location><X>76</X><Y>184</Y></Location>
+<Label>LaunchWeb.DataUri</Label>
+<BeforeBlockId>938</BeforeBlockId>
+<AfterBlockId>2119</AfterBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="2121" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<Block id="2119" genus-name="ActivityStarter-StartActivity" >
+<Location><X>76</X><Y>222</Y></Location>
+<Label>LaunchWeb.StartActivity</Label>
+<BeforeBlockId>2117</BeforeBlockId>
+</Block>
+<Block id="2121" genus-name="text" >
+<Location><X>250</X><Y>187</Y></Location>
+<Label>mailto:support@antonybailey.net</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2117" ></BlockConnector></Plug>
+</Block>
+<Block id="877" genus-name="PhoneCall-MakePhoneCall" >
+<Location><X>57</X><Y>68</Y></Location>
+<Label>Mobile.MakePhoneCall</Label>
+<BeforeBlockId>947</BeforeBlockId>
+</Block>
+<Block id="947" genus-name="Button-Click" >
+<Location><X>29</X><Y>35</Y></Location>
+<Label>btnCall.Click</Label>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="877" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="2115" genus-name="text" >
+<Location><X>509</X><Y>76</Y></Location>
+<Label>http:\/\/www.antonybailey.net</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2107" ></BlockConnector></Plug>
+</Block>
+<Block id="2111" genus-name="ActivityStarter-StartActivity" >
+<Location><X>335</X><Y>111</Y></Location>
+<Label>LaunchWeb.StartActivity</Label>
+<BeforeBlockId>2107</BeforeBlockId>
+</Block>
+<BlockStub><StubParentName>LaunchWeb.DataUri</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="2107" genus-name="componentSetter" >
+<Location><X>335</X><Y>73</Y></Location>
+<Label>LaunchWeb.DataUri</Label>
+<BeforeBlockId>942</BeforeBlockId>
+<AfterBlockId>2111</AfterBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="2115" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<Block id="942" genus-name="Button-Click" >
+<Location><X>307</X><Y>40</Y></Location>
+<Label>btnWebsite.Click</Label>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="2107" ></BlockConnector>
+</Sockets>
+</Block>
+</PageBlocks>
+</Page>
+
+</Pages><YoungAndroidMaps><YoungAndroidUuidMap>
+<YoungAndroidUuidEntry uuid="1447389022" component-id="btnFacebook" component-genus="Button" component-version="4" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-205052295" component-id="imgArrow5" component-genus="Image" component-version="1" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-305250857" component-id="btnLinkedIn" component-genus="Button" component-version="4" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-1356355873" component-id="btnEmail" component-genus="Button" component-version="4" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-859114328" component-id="imgArrow1" component-genus="Image" component-version="1" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-49829878" component-id="ContactButtons" component-genus="HorizontalArrangement" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="335841746" component-id="Skills" component-genus="TableArrangement" component-version="1" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-1339886507" component-id="lblLinux" component-genus="Label" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="543030450" component-id="imgArrow6" component-genus="Image" component-version="1" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="1935527637" component-id="lblNetworkInfrastructure" component-genus="Label" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="1533541482" component-id="imgArrow3" component-genus="Image" component-version="1" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-1280028115" component-id="imgProfile" component-genus="Image" component-version="1" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-1046574280" component-id="btnWebsite" component-genus="Button" component-version="4" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="1499422157" component-id="lblSEO" component-genus="Label" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-1499923117" component-id="btnCall" component-genus="Button" component-version="4" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-1221194939" component-id="lblBottomSpace" component-genus="Label" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="2046229164" component-id="lblAlso" component-genus="Label" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-337926943" component-id="lblBaseSpace" component-genus="Label" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-1643793769" component-id="imgArrow7" component-genus="Image" component-version="1" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-2086274560" component-id="imgArrow2" component-genus="Image" component-version="1" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="313411412" component-id="lblRemoteWorking" component-genus="Label" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="1563395747" component-id="imgArrow4" component-genus="Image" component-version="1" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-209349882" component-id="lblSQL" component-genus="Label" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-677431326" component-id="Mobile" component-genus="PhoneCall" component-version="1" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-2130429297" component-id="lblDataSecurity" component-genus="Label" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="0" component-id="Screen1" component-genus="Form" component-version="0" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-1088460270" component-id="lblBlankTop" component-genus="Label" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="1967173559" component-id="LaunchWeb" component-genus="ActivityStarter" component-version="3" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-330853103" component-id="lblWindowsServer" component-genus="Label" component-version="2" ></YoungAndroidUuidEntry>
+</YoungAndroidUuidMap>
+</YoungAndroidMaps>
+</YACodeBlocks>
